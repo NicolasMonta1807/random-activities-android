@@ -4,11 +4,17 @@
     <string name="countriesStarter">Countries</string>
     <string name="greetStarter">Random Greet</string>
 
+
+    <string name="es">Spanish (CO)</string>
+    <string name="en">English</string>
+    <string name="fr">French</string>
+    <string name="jp">Japanese (Romaji)</string>
+
     <string-array name="languages">
-        <item>Spanish</item>
-        <item>English</item>
-        <item>French</item>
-        <item>Japanese (Romaji)</item>
+        <item>@string/es</item>
+        <item>@string/en</item>
+        <item>@string/fr</item>
+        <item>@string/jp</item>
     </string-array>
 
     <string name="devMark">💜 Developed by Nicolás Montañez 💜</string>
@@ -19,4 +25,11 @@
     <string name="restart">Restart Game</string>
     <string name="player1_mark">X</string>
     <string name="player2_mark">O</string>
+
+    <string name="esGreet">¿Qué más? ¿Todo bien?</string>
+    <string name="enGreet">Oi, oi, mate</string>
+    <string name="frGreet">Coucou </string>
+    <string name="jpGreet">Konnichiwa</string>
+    <string name="altImage" />
+    <string name="randomButton">Random Greeting</string>
 </resources>
