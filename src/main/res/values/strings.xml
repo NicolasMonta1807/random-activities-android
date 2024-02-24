@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Random Activities</string>
+    <string name="ticTacToeStarter">Tic Tac Toe</string>
+    <string name="countriesStarter">Countries</string>
+    <string name="greetStarter">Random Greet</string>
+
+    <string-array name="languages">
+        <item>Spanish</item>
+        <item>English</item>
+        <item>French</item>
+        <item>Japanese (Romaji)</item>
+    </string-array>
+
+    <string name="devMark">💜 Developed by Nicolás Montañez 💜</string>
+
+    <string name="gameTitle">Tic-Tac-Toe</string>
+    <string name="initialState">Turn: Player %1$s</string>
+    <string name="emptyTile" />
+    <string name="restart">Restart Game</string>
+    <string name="player1_mark">X</string>
+    <string name="player2_mark">O</string>
+</resources>
