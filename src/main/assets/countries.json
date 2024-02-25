@@ -1,0 +1,154 @@
+{
+  "countries": [
+    {
+      "capital": "Berlin",
+      "name": "Alemania",
+      "int_name": "Germany",
+      "abbreviation": "DE"
+    },
+    {
+      "capital": "Buenos Aires",
+      "name": "Argentina",
+      "int_name": "Argentina",
+      "abbreviation": "AR"
+    },
+    {
+      "capital": "Canberra",
+      "name": "Australia",
+      "int_name": "Australia",
+      "abbreviation": "AU"
+    },
+    {
+      "capital": "Viena",
+      "name": "Austria",
+      "int_name": "Austria",
+      "abbreviation": "AT"
+    },
+    {
+      "capital": "Bruselas",
+      "name": "Bélgica",
+      "int_name": "Belgium",
+      "abbreviation": "BE"
+    },
+    {
+      "capital": "La Paz",
+      "name": "Bolívia",
+      "int_name": "Bolivia",
+      "abbreviation": "BO"
+    },
+    {
+      "capital": "Brasilia",
+      "name": "Brasil",
+      "int_name": "Brazil",
+      "abbreviation": "BR"
+    },
+    {
+      "capital": "Santiago",
+      "name": "Chile",
+      "int_name": "Chile",
+      "abbreviation": "CL"
+    },
+    {
+      "capital": "Bogotá",
+      "name": "Colombia",
+      "int_name": "Colombia",
+      "abbreviation": "CO"
+    },
+    {
+      "capital": "La Habana",
+      "name": "Cuba",
+      "int_name": "Cuba",
+      "abbreviation": "CU"
+    },
+    {
+      "capital": "Quito",
+      "name": "Ecuador",
+      "int_name": "Ecuador",
+      "abbreviation": "EC"
+    },
+    {
+      "capital": "Madrid",
+      "name": "España",
+      "int_name": "Spain",
+      "abbreviation": "ES"
+    },
+    {
+      "capital": "Washington",
+      "name": "Estados Unidos",
+      "int_name": "United States",
+      "abbreviation": "US"
+    },
+    {
+      "capital": "Paris",
+      "name": "Francia",
+      "int_name": "France",
+      "abbreviation": "FR"
+    },
+    {
+      "capital": "Londres",
+      "name": "Reino Unido",
+      "int_name": "United Kingdom",
+      "abbreviation": "GB"
+    },
+    {
+      "capital": "Atenas",
+      "name": "Grecia",
+      "int_name": "Greece",
+      "abbreviation": "GR"
+    },
+    {
+      "capital": "Amsterdam",
+      "name": "Holanda",
+      "int_name": "Netherlands",
+      "abbreviation": "NL"
+    },
+    {
+      "capital": "Budapest",
+      "name": "Hungria",
+      "int_name": "Hungary",
+      "abbreviation": "HU"
+    },
+    {
+      "capital": "Dublin",
+      "name": "Irlanda",
+      "int_name": "Ireland",
+      "abbreviation": "IE"
+    },
+    {
+      "capital": "Reykjavik",
+      "name": "Islandia",
+      "int_name": "Iceland",
+      "abbreviation": "IS"
+    },
+    {
+      "capital": "Jerusalen",
+      "name": "Israel",
+      "int_name": "Israel",
+      "abbreviation": "IL"
+    },
+    {
+      "capital": "Roma",
+      "name": "Italia",
+      "int_name": "Italy",
+      "abbreviation": "IT"
+    },
+    {
+      "capital": "Tokyo",
+      "name": "Japón",
+      "int_name": "Japan",
+      "abbreviation": "JP"
+    },
+    {
+      "capital": "Montevideo",
+      "name": "Uruguay",
+      "int_name": "Uruguay",
+      "abbreviation": "UY"
+    },
+    {
+      "capital": "Caracas",
+      "name": "Venezuela",
+      "int_name": "Venezuela",
+      "abbreviation": "VE"
+    }
+  ]
+}

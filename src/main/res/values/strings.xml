@@ -32,4 +32,8 @@
     <string name="jpGreet">Konnichiwa</string>
     <string name="altImage" />
     <string name="randomButton">Random Greeting</string>
+
+    <string name="countryName">%d : %s (%s)</string>
+    <string name="countryCapital">Capital: %s</string>
+    <string name="flagAlt">countryFlag</string>
 </resources>

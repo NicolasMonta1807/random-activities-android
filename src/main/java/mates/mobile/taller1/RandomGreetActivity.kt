@@ -39,7 +39,7 @@ class RandomGreetActivity : AppCompatActivity() {
         val tempLanguage = language
         while (tempLanguage == language)
         {
-            when (Random.nextInt(0, 3)) {
+            when (Random.nextInt(0, 4)) {
                 0 -> language = baseContext.resources.getString(R.string.en)
                 1 -> language = baseContext.resources.getString(R.string.es)
                 2 -> language = baseContext.resources.getString(R.string.fr)
