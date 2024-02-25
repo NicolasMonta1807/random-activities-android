@@ -34,6 +34,8 @@
     <string name="randomButton">Random Greeting</string>
 
     <string name="countryName">%d : %s (%s)</string>
+    <string name="countryDetail">%s (%s)</string>
     <string name="countryCapital">Capital: %s</string>
+    <string name="altName">(%s)</string>
     <string name="flagAlt">countryFlag</string>
 </resources>

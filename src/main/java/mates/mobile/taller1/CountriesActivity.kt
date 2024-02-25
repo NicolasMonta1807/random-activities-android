@@ -1,5 +1,6 @@
 package mates.mobile.taller1
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -36,5 +37,12 @@ class CountriesActivity : AppCompatActivity() {
         loadCountries()
         val adapter = CountryAdapter(baseContext, 0, countries)
         binding.countriesList.adapter = adapter
+
+        binding.countriesList.setOnItemClickListener { _, _, position, _ ->
+            val country = adapter.getItem(position)
+            val intent = Intent(baseContext, CountryDetailActivity::class.java)
+            intent.putExtra("country", country)
+            startActivity(intent)
+        }
     }
 }

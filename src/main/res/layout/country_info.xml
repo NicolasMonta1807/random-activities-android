@@ -9,9 +9,10 @@
         android:id="@+id/countryFlag"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_weight="1"
         android:layout_gravity="center_vertical"
-        android:contentDescription="@string/flagAlt" />
+        android:layout_weight="1"
+        android:contentDescription="@string/flagAlt"
+        app:srcCompat="@drawable/load" />
 
     <LinearLayout
         android:id="@+id/countryInfo"

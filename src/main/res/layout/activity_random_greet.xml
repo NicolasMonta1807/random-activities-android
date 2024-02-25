@@ -14,24 +14,23 @@
         android:layout_gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:padding="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:context=".RandomGreetActivity">
 
         <ImageView
             android:id="@+id/bgImage"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
             android:layout_gravity="center"
             android:contentDescription="@string/altImage"
-            android:maxWidth="100dp"
-            android:maxHeight="50dp"
             android:scaleType="centerCrop"
             app:srcCompat="@drawable/bogota" />
 
         <TextView
             android:id="@+id/greeting"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="#55FFFFFF"
