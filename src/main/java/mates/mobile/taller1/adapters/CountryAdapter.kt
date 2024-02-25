@@ -1,4 +1,4 @@
-package mates.mobile.taller1
+package mates.mobile.taller1.adapters
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -11,6 +11,7 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
+import mates.mobile.taller1.R
 import mates.mobile.taller1.model.Country
 import java.util.concurrent.Executors
 

@@ -1,8 +1,8 @@
-package mates.mobile.taller1
+package mates.mobile.taller1.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
+import mates.mobile.taller1.R
 import mates.mobile.taller1.databinding.ActivityRandomGreetBinding
 import kotlin.random.Random
 

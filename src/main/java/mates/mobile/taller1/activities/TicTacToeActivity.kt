@@ -1,10 +1,9 @@
-package mates.mobile.taller1
+package mates.mobile.taller1.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import androidx.core.content.ContextCompat
-import androidx.core.graphics.drawable.toDrawable
 import mates.mobile.taller1.R
 import mates.mobile.taller1.databinding.ActivityTicTacToeBinding
 

@@ -1,4 +1,4 @@
-package mates.mobile.taller1
+package mates.mobile.taller1.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

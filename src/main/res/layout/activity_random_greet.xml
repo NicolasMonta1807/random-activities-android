@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    tools:context=".RandomGreetActivity">
+    tools:context=".activities.RandomGreetActivity">
 
     <FrameLayout
         android:id="@+id/frameLayout"
@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:context=".RandomGreetActivity">
+        tools:context=".activities.RandomGreetActivity">
 
         <ImageView
             android:id="@+id/bgImage"

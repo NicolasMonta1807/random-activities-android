@@ -1,9 +1,9 @@
-package mates.mobile.taller1
+package mates.mobile.taller1.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.ArrayAdapter
+import mates.mobile.taller1.adapters.CountryAdapter
 import mates.mobile.taller1.databinding.ActivityCountriesBinding
 import mates.mobile.taller1.model.Country
 import org.json.JSONObject

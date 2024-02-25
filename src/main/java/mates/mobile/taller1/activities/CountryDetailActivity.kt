@@ -1,10 +1,11 @@
-package mates.mobile.taller1
+package mates.mobile.taller1.activities
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Looper
+import mates.mobile.taller1.R
 import mates.mobile.taller1.databinding.ActivityCountryDetailBinding
 import mates.mobile.taller1.model.Country
 import java.util.concurrent.Executors
