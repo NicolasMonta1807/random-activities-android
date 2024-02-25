@@ -9,12 +9,13 @@
 
     <FrameLayout
         android:id="@+id/frameLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
         android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:padding="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:padding="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:context=".RandomGreetActivity">
@@ -26,7 +27,7 @@
             android:layout_gravity="center"
             android:contentDescription="@string/altImage"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/bogota" />
+            app:srcCompat="@drawable/tokyo" />
 
         <TextView
             android:id="@+id/greeting"
@@ -45,6 +46,7 @@
         android:id="@+id/randomButton"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
         android:text="@string/randomButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

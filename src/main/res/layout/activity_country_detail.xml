@@ -9,13 +9,12 @@
 
     <ImageView
         android:id="@+id/countryFlag"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_marginBottom="125dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:alpha="0.5"
         android:contentDescription="@string/flagAlt"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:alpha="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/load" />
@@ -24,7 +23,6 @@
         android:id="@+id/countryName"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="100dp"
         android:gravity="center"
         android:text="@string/countryDetail"
         android:textSize="30sp"
@@ -38,7 +36,6 @@
         android:id="@+id/countryCapital"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_marginBottom="200dp"
         android:gravity="center"
         android:text="@string/countryCapital"
         android:textSize="20sp"
