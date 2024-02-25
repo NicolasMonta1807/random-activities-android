@@ -5,4 +5,5 @@
     <color name="player1">#FFEB3B</color>
     <color name="player2">#FF8A65</color>
     <color name="main">#0D47A1</color>
+    <color name="purpleDefault">#624aa1</color>
 </resources>

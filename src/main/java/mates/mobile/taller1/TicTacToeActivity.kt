@@ -3,6 +3,8 @@ package mates.mobile.taller1
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.core.content.ContextCompat
+import androidx.core.graphics.drawable.toDrawable
 import mates.mobile.taller1.R
 import mates.mobile.taller1.databinding.ActivityTicTacToeBinding
 
@@ -55,9 +57,11 @@ class TicTacToeActivity : AppCompatActivity() {
         if (currentTurn == 1) {
             player1.add(gridPosition)
             button.text = resources.getString(R.string.player1_mark)
+            button.backgroundTintList = ContextCompat.getColorStateList(baseContext, R.color.player1)
         } else {
             player2.add(gridPosition)
             button.text = resources.getString(R.string.player2_mark)
+            button.backgroundTintList = ContextCompat.getColorStateList(baseContext, R.color.player2)
         }
 
         if (!checkWin())
@@ -118,6 +122,7 @@ class TicTacToeActivity : AppCompatActivity() {
             for (button: Button in gameButtons) {
                 button.text = resources.getString(R.string.emptyTile)
                 button.isClickable = true
+                button.backgroundTintList = ContextCompat.getColorStateList(baseContext, R.color.purpleDefault)
             }
             binding.winAlert.text = ""
             currentTurn = 1
